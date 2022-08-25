@@ -1,11 +1,11 @@
 package employeemanager;
 
-public class NhanVienFulltime extends NhanVien {
+public class EmployeesFulltime extends Employees {
     public long  hardSalary;
     public long  salaryBonus;
     public long  wage;
-    public NhanVienFulltime(){}
-    public NhanVienFulltime(String maNv, String name, int age,String phone, String email,long  salaryBonus,long  hardSalary, long  wage){
+    public EmployeesFulltime(){}
+    public EmployeesFulltime(String maNv, String name, int age,String phone, String email,long  salaryBonus,long  hardSalary, long  wage){
         super(maNv,name,age,phone,email);
         this.hardSalary = hardSalary;
         this.salaryBonus = salaryBonus;

@@ -1,12 +1,12 @@
 package employeemanager;
 
 
-public class NhanVienParttime extends NhanVien {
+public class EmployeesParttime extends Employees {
     public long timeWork;
 
-    public NhanVienParttime(){}
+    public EmployeesParttime(){}
 
-    public NhanVienParttime(String maNv, String name, int age,String phone, String email, long timeWork){
+    public EmployeesParttime(String maNv, String name, int age,String phone, String email, long timeWork){
         super(maNv,name,age,phone,email);
         this.timeWork = timeWork;
     }
